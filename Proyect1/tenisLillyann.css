@@ -1,0 +1,31 @@
+.carousel-and-content {
+    display: flex; /* Place carousel and content side by side */
+    height: 100vh; /* Full screen height */
+}
+
+#carouselExample {
+    flex: 1; /* Carousel takes half the width */
+}
+
+.content {
+    flex: 1; /* Content takes the other half */
+    display: flex; /* Center the text */
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    padding: 20px; /* Add some padding */
+    background-color: black; /* Black background for the text */
+    color: white; /* White text for contrast */
+}
+
+.carousel-inner img {
+    height: 100vh; /* Set the image height to match the screen's height */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
